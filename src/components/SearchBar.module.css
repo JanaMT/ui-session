@@ -1,7 +1,7 @@
 .searchBar {
   display: flex;
   gap: 8px;
-  padding: 0 16px 14px 16px;
+  padding: 0 13px 15px 16px;
   max-width: 100vw;
   box-sizing: border-box;
 }
@@ -42,7 +42,7 @@
 }
 
 .filterButton {
-  width: 44px;
+  width: 35px;
   min-width: 44px;
   height: 48px;
   border-radius: 12px;
