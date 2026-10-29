@@ -21,6 +21,15 @@
   color: #5826b2;
   text-decoration: none;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.arrowIcon {
+  width: 14px;
+  height: 14px;
+  transform: rotate(0deg);
 }
 
 .scrollContainer {

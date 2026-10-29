@@ -5,6 +5,7 @@ import makeupIcon from '../assets/icons/category-makeup.svg';
 import shavingIcon from '../assets/icons/category-shaving.svg';
 import coloringIcon from '../assets/icons/category-coloring.svg';
 import stylingIcon from '../assets/icons/category-styling.svg';
+import arrowIcon from '../assets/icons/salon-arrow.svg';
 
 function PopularCategories() {
   const categories = [
@@ -21,6 +22,7 @@ function PopularCategories() {
         <h2 className={styles.title}>Popular Categories</h2>
         <a href="#" className={styles.seeAll}>
           See All
+          <img src={arrowIcon} alt="" className={styles.arrowIcon} />
         </a>
       </div>
       <div className={styles.scrollContainer}>

@@ -18,6 +18,7 @@ function HighestRatedSalons() {
         <h2 className={styles.title}>Highest Rated Salons</h2>
         <a href="#" className={styles.seeAll}>
           See All
+          <img src={arrowIcon} alt="" className={styles.arrowIcon} />
         </a>
       </div>
       <div className={styles.scrollContainer}>
